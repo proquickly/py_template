@@ -1,0 +1,434 @@
+Index: requirements.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/requirements.txt b/requirements.txt
+new file mode 100644
+--- /dev/null	(date 1701802442153)
++++ b/requirements.txt	(date 1701802442153)
+@@ -0,0 +1,9 @@
++loguru
++pandas
++numpy
++matplotlib
++python-dotenv
++flask
++flask-restful
++sqlalchemy
++app
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
+new file mode 100644
+--- /dev/null	(date 1701807402522)
++++ b/.idea/inspectionProfiles/Project_Default.xml	(date 1701807402522)
+@@ -0,0 +1,38 @@
++<component name="InspectionProjectProfileManager">
++  <profile version="1.0">
++    <option name="myName" value="Project Default" />
++    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
++      <option name="ignoredPackages">
++        <value>
++          <list size="18">
++            <item index="0" class="java.lang.String" itemvalue="pywebio" />
++            <item index="1" class="java.lang.String" itemvalue="PySnooper" />
++            <item index="2" class="java.lang.String" itemvalue="pymongo" />
++            <item index="3" class="java.lang.String" itemvalue="pytest" />
++            <item index="4" class="java.lang.String" itemvalue="nltk" />
++            <item index="5" class="java.lang.String" itemvalue="flask-restful" />
++            <item index="6" class="java.lang.String" itemvalue="setuptools" />
++            <item index="7" class="java.lang.String" itemvalue="requests" />
++            <item index="8" class="java.lang.String" itemvalue="numpy" />
++            <item index="9" class="java.lang.String" itemvalue="sqlalchemy" />
++            <item index="10" class="java.lang.String" itemvalue="pdfplumber" />
++            <item index="11" class="java.lang.String" itemvalue="flask" />
++            <item index="12" class="java.lang.String" itemvalue="pandas" />
++            <item index="13" class="java.lang.String" itemvalue="beautifulsoup4" />
++            <item index="14" class="java.lang.String" itemvalue="pygame" />
++            <item index="15" class="java.lang.String" itemvalue="matplotlib" />
++            <item index="16" class="java.lang.String" itemvalue="notebook" />
++            <item index="17" class="java.lang.String" itemvalue="PyQt6" />
++          </list>
++        </value>
++      </option>
++    </inspection_tool>
++    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
++      <option name="ignoredErrors">
++        <list>
++          <option value="W605" />
++        </list>
++      </option>
++    </inspection_tool>
++  </profile>
++</component>
+\ No newline at end of file
+Index: README,md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README,md b/README,md
+new file mode 100644
+--- /dev/null	(date 1701809100874)
++++ b/README,md	(date 1701809100874)
+@@ -0,0 +1,33 @@
++# Python Project Template for beginners
++
++## Introduction
++
++This is an easy to use, no fuss template, to assist ProQuickly clients (and
++anyone else who needs this) to get started with python.
++
++Note at this time, this document and approach assumes a basic proficiency with
++using a computer for software development. A video guide for this will be
++coming soon to help complete beginners.
++
++## Prerequisites
++1. A computer! (this should work on Mac and Linux, as well as Windows,
++including wsl - a much better choice than plain windows).
++1. Install git. Be sure to set the environment variables for user and password.
++1. If you want to use an online git service you will need to signup online,
++create an ssh key locally and then add  it to the online service. I use
++and recommend gitab.com. I am a M$-free zone.
++1. Install docker.
++1. Download pycharm from jetbrains.com (this setup is only tested on pycharm).
++1. Note that if you have a .edu email address jetbrains will give you a free
++license to all their commercial products, renewable annually. If no edu, then
++download the community version. It's still really great.
++1. Install pycharm.
++
++That's it. Nothing else needed, not even python (because everything not
++mentioned above will run in a container).
++
++
++## Getting started
++1. copy the ssh url of this repo.
++1. Open up pycharm.
++1. In the new project screen enter the repo url.
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(date 1701807678252)
++++ b/.gitignore	(date 1701807678252)
+@@ -0,0 +1,161 @@
++### Python template
++# Byte-compiled / optimized / DLL files
++__pycache__/
++*.py[cod]
++*$py.class
++
++# C extensions
++*.so
++
++# Distribution / packaging
++.Python
++build/
++develop-eggs/
++dist/
++downloads/
++eggs/
++.eggs/
++lib/
++lib64/
++parts/
++sdist/
++var/
++wheels/
++share/python-wheels/
++*.egg-info/
++.installed.cfg
++*.egg
++MANIFEST
++
++# PyInstaller
++#  Usually these files are written by a python script from a template
++#  before PyInstaller builds the exe, so as to inject date/other infos into it.
++*.manifest
++*.spec
++
++# Installer logs
++pip-log.txt
++pip-delete-this-directory.txt
++
++# Unit test / coverage reports
++htmlcov/
++.tox/
++.nox/
++.coverage
++.coverage.*
++.cache
++nosetests.xml
++coverage.xml
++*.cover
++*.py,cover
++.hypothesis/
++.pytest_cache/
++cover/
++
++# Translations
++*.mo
++*.pot
++
++# Django stuff:
++*.log
++local_settings.py
++db.sqlite3
++db.sqlite3-journal
++
++# Flask stuff:
++instance/
++.webassets-cache
++
++# Scrapy stuff:
++.scrapy
++
++# Sphinx documentation
++docs/_build/
++
++# PyBuilder
++.pybuilder/
++target/
++
++# Jupyter Notebook
++.ipynb_checkpoints
++
++# IPython
++profile_default/
++ipython_config.py
++
++# pyenv
++#   For a library or package, you might want to ignore these files since the code is
++#   intended to run in multiple environments; otherwise, check them in:
++# .python-version
++
++# pipenv
++#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
++#   However, in case of collaboration, if having platform-specific dependencies or dependencies
++#   having no cross-platform support, pipenv may install dependencies that don't work, or not
++#   install all needed dependencies.
++#Pipfile.lock
++
++# poetry
++#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
++#   This is especially recommended for binary packages to ensure reproducibility, and is more
++#   commonly ignored for libraries.
++#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
++#poetry.lock
++
++# pdm
++#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
++#pdm.lock
++#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
++#   in version control.
++#   https://pdm.fming.dev/#use-with-ide
++.pdm.toml
++
++# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
++__pypackages__/
++
++# Celery stuff
++celerybeat-schedule
++celerybeat.pid
++
++# SageMath parsed files
++*.sage.py
++
++# Environments
++.env
++.venv
++env/
++venv/
++ENV/
++env.bak/
++venv.bak/
++
++# Spyder project settings
++.spyderproject
++.spyproject
++
++# Rope project settings
++.ropeproject
++
++# mkdocs documentation
++/site
++
++# mypy
++.mypy_cache/
++.dmypy.json
++dmypy.json
++
++# Pyre type checker
++.pyre/
++
++# pytype static type analyzer
++.pytype/
++
++# Cython debug symbols
++cython_debug/
++
++# PyCharm
++#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
++#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
++#  and can be added to the global gitignore or merged into this file.  For a more nuclear
++#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
++#.idea/
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1701807379961)
++++ b/.idea/.gitignore	(date 1701807379961)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+Index: Dockerfile
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Dockerfile b/Dockerfile
+new file mode 100644
+--- /dev/null	(date 1701803260851)
++++ b/Dockerfile	(date 1701803260851)
+@@ -0,0 +1,23 @@
++FROM python:3.11-slim-bookworm
++
++RUN apt-get update \
++    && apt-get install -y gcc python3-dev \
++    && rm -rf /var/cache/apt/archives /var/lib/apt/lists \
++    && python -m pip install --user setuptools wheel \
++    && python -m pip install --user --upgrade pip
++
++WORKDIR /product
++
++RUN useradd -m -r apprun && \
++    chown apprun /product
++
++COPY requirements.txt ./
++RUN pip install --user -r requirements.txt
++
++COPY . .
++
++USER apprun
++
++ARG GIT_HASH
++ENV GIT_HASH=${GIT_HASH:-dev}
++CMD ["python", "-m", "app.main"]
+Index: app/__init__.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/__init__.py b/app/__init__.py
+new file mode 100644
+--- /dev/null	(date 1701808026321)
++++ b/app/__init__.py	(date 1701808026321)
+@@ -0,0 +1,1 @@
++__version__ = '0.0.0'
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1701807402537)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(date 1701807402537)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1701807617990)
++++ b/.idea/misc.xml	(date 1701807617990)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Black">
++    <option name="sdkName" value="Python 3.9" />
++  </component>
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1701807402534)
++++ b/.idea/vcs.xml	(date 1701807402534)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/py_template.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/py_template.iml b/.idea/py_template.iml
+new file mode 100644
+--- /dev/null	(date 1701807402525)
++++ b/.idea/py_template.iml	(date 1701807402525)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1701807402528)
++++ b/.idea/modules.xml	(date 1701807402528)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/py_template.iml" filepath="$PROJECT_DIR$/.idea/py_template.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file

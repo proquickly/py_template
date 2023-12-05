@@ -1,0 +1,9 @@
+loguru
+pandas
+numpy
+matplotlib
+python-dotenv
+flask
+flask-restful
+sqlalchemy
+app
