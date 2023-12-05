@@ -9,6 +9,8 @@ Note at this time, this document and approach assumes a basic proficiency with
 using a computer for software development. A video guide for this will be
 coming soon to help complete beginners.
 
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="proquickly" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+
 ## Prerequisites
 1. A computer! (this should work on Mac and Linux, as well as Windows,
 including wsl - a much better choice than plain windows).
