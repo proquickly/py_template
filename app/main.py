@@ -1,9 +1,8 @@
-import app.maths
+import app #  add .module name after removing this comment.
 
 
 def run():
-    result = app.maths.addup(1, 2)
-    print(f"{result=}")
+    raise NotImplementedError
 
 
 if __name__ == "__main__":

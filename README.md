@@ -12,7 +12,7 @@ coming soon to help complete beginners.
 ### Creating this takes time...
 I'd appreciate it if you'd
 
-<a href="https://www.buymeacoffee.com/proquickly" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px ;width: 260 px" ></a>
+<a href="https://www.buymeacoffee.com/proquickly"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=proquickly&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" /></a>
 
 Thanks!
 
