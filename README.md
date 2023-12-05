@@ -9,7 +9,12 @@ Note at this time, this document and approach assumes a basic proficiency with
 using a computer for software development. A video guide for this will be
 coming soon to help complete beginners.
 
-```html<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="proquickly" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>```
+## Creating this takes time...
+I'd love you to
+
+<a href="https://www.buymeacoffee.com/proquickly" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+Thanks!
 
 ## Prerequisites
 1. A computer! (this should work on Mac and Linux, as well as Windows,
