@@ -9,8 +9,8 @@ Note at this time, this document and approach assumes a basic proficiency with
 using a computer for software development. A video guide for this will be
 coming soon to help complete beginners.
 
-## Creating this takes time...
-I'd love you to
+### Creating this takes time...
+I'd appreciate it if you'd
 
 <a href="https://www.buymeacoffee.com/proquickly" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 260 px !important;" ></a>
 
