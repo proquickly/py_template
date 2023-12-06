@@ -24,11 +24,11 @@ including wsl - a much better choice than plain windows).
 create an ssh key locally and then add  it to the online service. I use
 and recommend gitab.com. I am a M$-free zone.
 1. Install docker.
-1. Download pycharm from jetbrains.com (this setup is only tested on pycharm).
+1. Download pycharm from jetbrains.com (this setup is only tested on pycharm professional).
 1. Note that if you have a .edu email address jetbrains will give you a free
 license to all their commercial products, renewable annually. If no edu, then
-download the community version. It's still really great.
-1. Install pycharm.
+download the community version. It's still really great, but it uses a different setup (yet to be documented below).
+1. Install pycharm professional.
 
 That's it. Nothing else needed, not even python (because everything not
 mentioned above will run in a container).
@@ -37,4 +37,5 @@ mentioned above will run in a container).
 ## Getting started
 1. copy the ssh url of this repo.
 1. Open up pycharm.
-1. In the new project screen enter the repo url.
+1. In the new project screen enter the repo url git@gitlab.com:proquickly-tools/py_template.git in the get from vcs box.
+1. Open the Dockerfile

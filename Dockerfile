@@ -8,8 +8,11 @@ RUN apt-get update \
 
 WORKDIR /product
 
+
 RUN useradd -m -r apprun && \
     chown apprun /product
+
+ENV PATH "/root/.local/bin:${PATH}"
 
 COPY requirements.txt ./
 RUN pip install --user -r requirements.txt

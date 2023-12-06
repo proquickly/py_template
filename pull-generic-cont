@@ -1,0 +1,2 @@
+#!/bin/bash
+docker pull andykmiles/pyteach:1.3
