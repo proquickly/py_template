@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="030c1d6e-7a08-43b1-a98e-8a49e480013d" name="Check if I can enter to dos from ide" comment="Check if I can enter to dos from ide">
+    <list default="true" id="030c1d6e-7a08-43b1-a98e-8a49e480013d" name="Check if I can enter to dos from ide" comment="added chmod to script">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generateArtifacts.sh" beforeDir="false" afterPath="$PROJECT_DIR$/generateArtifacts.sh" afterDir="false" />
     </list>
     <list id="4397fbd1-96af-49f5-bc9b-b5a78fcc8da9" name="Changes" comment="tweak" />
     <option name="SHOW_DIALOG" value="false" />
@@ -255,7 +256,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701886993011</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added script">
+      <option name="closed" value="true" />
+      <created>1701890503139</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701890503140</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added chmod to script">
+      <option name="closed" value="true" />
+      <created>1701890648235</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1701890648236</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <option name="clearContext" value="false" />
     <option name="createChangelist" value="false" />
     <option name="createBranch" value="false" />
@@ -292,7 +309,9 @@
     <MESSAGE value="scripts to build and run containers from terminal" />
     <MESSAGE value="Check if I can enter to dos from ide" />
     <MESSAGE value="tweak" />
-    <option name="LAST_COMMIT_MESSAGE" value="tweak" />
+    <MESSAGE value="added script" />
+    <MESSAGE value="added chmod to script" />
+    <option name="LAST_COMMIT_MESSAGE" value="added chmod to script" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/py_template$main.coverage" NAME="main Coverage Results" MODIFIED="1701875337318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
