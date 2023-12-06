@@ -16,7 +16,7 @@ job("Build and push Docker") {
             val spaceRepo = "proqickly.registry.jetbrains.space/p/py_template/py_template"
             // image tags for 'docker push'
             tags {
-                +"$spaceRepo:1.0.${"$"}JB_SPACE_EXECUTION_NUMBER"
+                +"$spaceRepo:1.0.${\"$\"}JB_SPACE_EXECUTION_NUMBER"
                 +"$spaceRepo:latest"
             }
         }

@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="030c1d6e-7a08-43b1-a98e-8a49e480013d" name="Check if I can enter to dos from ide" comment="added chmod to script">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateArtifacts.sh" beforeDir="false" afterPath="$PROJECT_DIR$/generateArtifacts.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.space.kts" beforeDir="false" afterPath="$PROJECT_DIR$/.space.kts" afterDir="false" />
     </list>
     <list id="4397fbd1-96af-49f5-bc9b-b5a78fcc8da9" name="Changes" comment="tweak" />
     <option name="SHOW_DIALOG" value="false" />
@@ -272,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701890648236</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added chmod to script">
+      <option name="closed" value="true" />
+      <created>1701891390563</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1701891390563</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <option name="clearContext" value="false" />
     <option name="createChangelist" value="false" />
     <option name="createBranch" value="false" />
