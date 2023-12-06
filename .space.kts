@@ -1,10 +1,10 @@
 job("Build and push Docker") {
     host("Build artifacts and a Docker image") {
         // generate artifacts required for the image
-        shellScript {
-            content = """
-               ./generateArtifacts.sh
-            """
+        //shellScript {
+        //    content = """
+        //       ./generateArtifacts.sh
+        //    """
         }
 
         dockerBuildPush {
