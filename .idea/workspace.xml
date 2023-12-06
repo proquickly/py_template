@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="030c1d6e-7a08-43b1-a98e-8a49e480013d" name="Check if I can enter to dos from ide" comment="changed quoting in sh">
+      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.space.kts" beforeDir="false" afterPath="$PROJECT_DIR$/.space.kts" afterDir="false" />
     </list>
@@ -344,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701892177102</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="changed quoting in sh">
+      <option name="closed" value="true" />
+      <created>1701898129212</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1701898129212</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <option name="clearContext" value="false" />
     <option name="createChangelist" value="false" />
     <option name="createBranch" value="false" />

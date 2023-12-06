@@ -21,7 +21,7 @@ job("Build and push Docker") {
             // image tags
             tags {
                 // use current job run number as a tag - '0.0.run_number'
-                +"proquickly.registry.jetbrains.space/p/clients/clients/py_template:latest:1.0.${"$"}JB_SPACE_EXECUTION_NUMBER"
+                +"proquickly.registry.jetbrains.space/p/clients/clients/py_template:1.0.${"$"}JB_SPACE_EXECUTION_NUMBER"
             }
         }
     }
