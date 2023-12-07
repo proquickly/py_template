@@ -3,8 +3,7 @@ name: Docker image build and push
 on:
   push:
     branches: [ "main" ]
-  pull-request:
-
+    
 jobs:
 
   build-push:
