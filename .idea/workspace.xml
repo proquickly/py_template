@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="030c1d6e-7a08-43b1-a98e-8a49e480013d" name="Check if I can enter to dos from ide" comment="changed quoting in sh">
+    <list default="true" id="4397fbd1-96af-49f5-bc9b-b5a78fcc8da9" name="Changes" comment="updated gha yml">
       <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.space.kts" beforeDir="false" afterPath="$PROJECT_DIR$/.space.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
-    <list id="4397fbd1-96af-49f5-bc9b-b5a78fcc8da9" name="Changes" comment="tweak" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,16 +143,21 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="Default" summary="Default task">
+    <task active="true" id="Default" summary="Default task">
       <changelist id="4397fbd1-96af-49f5-bc9b-b5a78fcc8da9" name="Changes" comment="" />
       <created>1701807374714</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1701882707697</updated>
+      <updated>1701904246977</updated>
       <workItem from="1701807375759" duration="7238000" />
       <workItem from="1701874292892" duration="1154000" />
       <workItem from="1701875458617" duration="5513000" />
       <workItem from="1701882353985" duration="353000" />
+      <workItem from="1701904247360" />
+      <workItem from="1701912650892" />
+      <workItem from="1701976345294" />
+      <workItem from="1701976958644" />
+      <workItem from="1701977931924" />
     </task>
     <task id="LOCAL-00001" summary="v0.1 wip">
       <option name="closed" value="true" />
@@ -226,28 +230,6 @@
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
       <updated>1701878334186</updated>
-    </task>
-    <task active="true" id="LOCAL-00010" summary="Check if I can enter to dos from ide">
-      <changelist id="030c1d6e-7a08-43b1-a98e-8a49e480013d" name="Check if I can enter to dos from ide" comment="" />
-      <option name="closed" value="true" />
-      <created>1701882685887</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1701883405479</updated>
-      <workItem from="1701882707788" duration="513000" />
-      <workItem from="1701883406286" duration="127000" />
-      <workItem from="1701893083653" />
-    </task>
-    <task id="PY_TEMPLATE-1" summary="Setup space link">
-      <created>1701879198456</created>
-      <option name="issue" value="true" />
-      <url>https://proquickly.youtrack.cloud/issue/PY_TEMPLATE-1</url>
-      <option name="number" value="1" />
-      <option name="presentableId" value="PY_TEMPLATE-1" />
-      <option name="project" value="PY_TEMPLATE" />
-      <updated>1701883405479</updated>
-      <workItem from="1701883221881" duration="144000" />
     </task>
     <task id="LOCAL-00011" summary="tweak">
       <option name="closed" value="true" />
@@ -353,19 +335,54 @@
       <option name="project" value="LOCAL" />
       <updated>1701898129212</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="changed quoting in sh">
+      <option name="closed" value="true" />
+      <created>1701898407588</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1701898407589</updated>
+    </task>
+    <task id="LOCAL-00025" summary="changed quoting in sh">
+      <option name="closed" value="true" />
+      <created>1701898509515</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1701898509515</updated>
+    </task>
+    <task id="LOCAL-00026" summary="tweak">
+      <option name="closed" value="true" />
+      <created>1701911973475</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1701911973476</updated>
+    </task>
+    <task id="LOCAL-00027" summary="updated gha yml">
+      <option name="closed" value="true" />
+      <created>1701978575533</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1701978575533</updated>
+    </task>
+    <task id="LOCAL-00028" summary="updated gha yml">
+      <option name="closed" value="true" />
+      <created>1701979205123</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1701979205123</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <option name="clearContext" value="false" />
     <option name="createChangelist" value="false" />
     <option name="createBranch" value="false" />
     <option name="commitChanges" value="false" />
     <option name="searchClosedTasks" value="true" />
     <servers>
-      <YouTrack url="https://proquickly.youtrack.cloud">
-        <option name="preferredOpenTaskState">
-          <CustomTaskState id="Develop" name="Develop" />
-        </option>
-        <username>akmiles@icloud.com</username>
-      </YouTrack>
+      <GitHub url="https://github.com" />
     </servers>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +393,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -389,9 +418,10 @@
     <MESSAGE value="added bmac" />
     <MESSAGE value="scripts to build and run containers from terminal" />
     <MESSAGE value="Check if I can enter to dos from ide" />
-    <MESSAGE value="tweak" />
     <MESSAGE value="added script" />
     <MESSAGE value="added chmod to script" />
+    <MESSAGE value="tweak" />
+    <MESSAGE value="updated gha yml" />
     <MESSAGE value="changed quoting in sh" />
     <option name="LAST_COMMIT_MESSAGE" value="changed quoting in sh" />
   </component>

@@ -13,12 +13,9 @@ RUN /opt/venv/bin/pip install certifi setuptools wheel \
 
 WORKDIR /product
 
-RUN useradd -m -r apprun && \
-    chown apprun /product
 
 COPY . .
 
-USER apprun
 
 ARG GIT_HASH
 ENV GIT_HASH=${GIT_HASH:-dev}
