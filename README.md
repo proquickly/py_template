@@ -21,8 +21,7 @@ Thanks!
 including wsl - a much better choice than plain windows).
 1. Install git. Be sure to set the environment variables for user and password.
 1. If you want to use an online git service you will need to signup online,
-create an ssh key locally and then add  it to the online service. I use
-and recommend gitab.com. I am a M$-free zone.
+create an ssh key locally and then add  it to the online service.
 1. Install docker.
 1. Download pycharm from jetbrains.com (this setup is only tested on pycharm professional).
 1. Note that if you have a .edu email address jetbrains will give you a free
