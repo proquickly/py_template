@@ -1,7 +1,7 @@
 FROM python:3.11-slim-bookworm
 
 RUN apt-get update \
-    && apt-get install -y gcc python3-dev \
+    && apt-get install -y gcc python3-dev libssl-dev libffi-dev python3-openssl \
     && rm -rf /var/cache/apt/archives /var/lib/apt/lists \
     && python -m pip install --user setuptools wheel \
     && python -m pip install --user --upgrade pip
