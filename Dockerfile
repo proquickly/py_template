@@ -2,20 +2,19 @@ FROM python:3.11-slim-bookworm
 
 RUN apt-get update \
     && apt-get install -y gcc python3-dev libssl-dev libffi-dev python3-openssl \
-    && rm -rf /var/cache/apt/archives /var/lib/apt/lists \
-    && python -m pip install --user setuptools wheel \
-    && python -m pip install --user --upgrade pip
+    && rm -rf /var/cache/apt/archives /var/lib/apt/lists
+ENV VIRTUAL_ENV=/opt/venv
+RUN python3 -m venv $VIRTUAL_ENV
+ENV PATH="$VIRTUAL_ENV/bin:$PATH"
+COPY requirements.txt ./
+RUN pip install -r requirements.txt \
+    && pip install setuptools wheel \
+    && pip install --upgrade pip
 
 WORKDIR /product
 
-
 RUN useradd -m -r apprun && \
     chown apprun /product
-
-ENV PATH "/root/.local/bin:${PATH}"
-
-COPY requirements.txt ./
-RUN pip install --user -r requirements.txt
 
 COPY . .
 
