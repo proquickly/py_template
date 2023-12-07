@@ -1,8 +1,8 @@
 FROM python:3.11-slim-bookworm
 
 RUN apt-get update \
-    && apt-get install -y \
-    && gcc python3-dev libssl libssl-dev openssl libffi-dev python3-openssl apt-utils \
+    && apt-get install -y gcc \
+    && python3-dev libssl libssl-dev openssl libffi-dev python3-openssl apt-utils \
     && rm -rf /var/cache/apt/archives /var/lib/apt/lists
 ENV VIRTUAL_ENV=/opt/venv
 RUN python3 -m venv $VIRTUAL_ENV
