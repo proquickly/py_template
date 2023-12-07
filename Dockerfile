@@ -6,9 +6,9 @@ RUN apt-get update \
 ENV VIRTUAL_ENV=/opt/venv
 RUN python3 -m venv $VIRTUAL_ENV
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
-COPY requirements.txt ./
-RUN pip install -r requirements.txt \
-    && pip install setuptools wheel \
+COPY requirements.txt .
+RUN pip install setuptools wheel \
+    && pip install -r requirements.txt \
     && pip install --upgrade pip
 
 WORKDIR /product
