@@ -7,9 +7,9 @@ ENV VIRTUAL_ENV=/opt/venv
 RUN python3 -m venv $VIRTUAL_ENV
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 COPY requirements.txt .
-RUN pip install certifi setuptools wheel \
-    && pip install -r requirements.txt \
-    && pip install --upgrade pip
+RUN /opt/venv/pip install certifi setuptools wheel \
+    && /opt/venv/pip install -r requirements.txt \
+    && /opt/venv/pip install --upgrade pip
 
 WORKDIR /product
 
