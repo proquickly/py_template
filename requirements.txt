@@ -1,3 +1,4 @@
+loguru
 pandas
 numpy
 matplotlib
